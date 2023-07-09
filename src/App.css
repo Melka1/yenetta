@@ -1,0 +1,298 @@
+.login--container {
+  /* width:100vw; */
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login--wrapper {
+  display: flex;
+  width: 450px;
+  padding: 58px 28px 36px 28px;
+  flex-direction: column;
+  align-items: center;
+
+    border-radius: 6px;
+  background: var(--light-background-paper, #FFF);
+
+  /* Light/Elevation/Card */
+  box-shadow: 0px 2px 10px 0px rgba(58, 53, 65, 0.10);
+}
+
+.box {
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.box .logo-wrapper {
+  border: 0px none;
+  height: 61px;
+  width: 138px;
+}
+
+.box .logo {
+  align-items: center;
+  display: flex;
+  gap: 12px;
+  padding: 0px 0px 32px;
+}
+
+.box .img {
+  height: 27.34px;
+  min-width: 35px;
+  position: relative;
+}
+
+.box .text-wrapper {
+  color: #3a3541de;
+  /* font-family: "Inter-SemiBold", Helvetica; */
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: 0.27px;
+  line-height: normal;
+  position: relative;
+  width: fit-content;
+}
+
+.label {
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  /* justify-content: center; */
+  width: 100%;
+}
+
+.label .marketing-automation-wrapper {
+  border: 0px none;
+  height: 38px;
+  width: 392px;
+}
+
+.label .marketing-automation {
+  color: #3a3541de;
+  /* font-family: "Inter-SemiBold", Helvetica; */
+  font-size: 24px;
+  font-weight: 400;
+  letter-spacing: 0.18px;
+  line-height: 32px;
+  white-space: nowrap;
+  /* width: 392px; */
+}
+
+.label .text-wrapper {
+  font-weight: 600;
+}
+
+.label .span {
+  /* font-family: "Inter-Medium", Helvetica; */
+  font-weight: 500;
+}
+
+.label .text-wrapper-2 {
+  font-family: "Roboto-Regular", Helvetica;
+}
+
+form {
+  width: 100%;
+}
+
+/* .form--title--wrapper {
+  width: 100%;
+} */
+
+.form--title {
+  color: var(--light-text-secondary, rgba(58, 53, 65, 0.68));
+
+  /* Light/Typography/Body 2 */
+  /* font-family: Inter; */
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.15px;
+}
+
+form input {
+  width: -webkit-fill-available;
+  padding: 12px 16px;
+  margin-bottom: 16px;
+  border-radius: 6px;
+  border: 1px solid var(--light-other-outlined-border, rgba(58, 53, 65, 0.23));
+  color: var(--light-text-disabled, rgba(58, 53, 65, 0.38));
+/* Light/Components/Input Text */
+  /* font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.15px; */
+}
+
+form input::placeholder, form input {
+  /* font-family: initial; */
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.15px;
+}
+
+.container {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  color: var(--light-text-primary, rgba(58, 53, 65, 0.87));
+  /* font-family: Inter; */
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.15px;
+}
+
+/* Hide the browser's default checkbox */
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: transparent;
+  border: 2px solid rgba(58, 53, 65, 0.87);
+  border-radius: 4px;
+}
+
+/* On mouse-over, add a grey background color */
+.container:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.container input:checked ~ .checkmark {
+  background-color: #f4f4f4;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.container .checkmark:after {
+  left: 7px;
+  top: 2px;
+  width: 5px;
+  height: 10px;
+  border: solid #2196F3;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.login--button {
+  width: 100%;
+  margin-top: 16px;
+  margin-bottom: 28px;
+  border-radius: 5px;
+  background: var(--light-primary-main, #9155FD);
+
+  /* Light/Elevation/3 */
+  box-shadow: 0px 4px 8px -4px rgba(58, 53, 65, 0.42);
+
+  color: var(--light-primary-contrast, #FFF);
+
+/* Light/Components/Button Large */
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: 0.46px;
+  padding: 8px;
+  outline:none;
+  border: none;
+}
+
+.login--button:hover {
+  background: rgb(145, 85, 253, 70%);
+}
+
+.have--an--account {
+  margin: 0;
+  color: rgba(58, 53, 65, 0.68);
+  text-align: center;
+  /* Light/Typography/Body 1 */
+  /* font-family: Inter; */
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.15px;
+}
+
+.have--an--account a {
+  color: #9155FD;
+}
+
+.have--an--account a:hover {
+  text-decoration: underline;
+}
+
+.or--container {
+  display: grid;
+  grid-template-columns: 5fr 1fr 5fr;
+  gap: 10px;
+  padding: 20px 0;
+}
+
+.or--container div {
+  border-bottom: 1px solid rgba(58, 53, 65, 0.12);
+}
+
+.or--container p {
+  position: relative;
+  margin: 0;
+  top: 10px;
+  color: var(--light-text-primary, rgba(58, 53, 65, 0.87));
+  text-align: center;
+  /* Light/Typography/Body 1 */
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.15px;
+}
+
+.socials {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  justify-content: center;
+}
