@@ -1,0 +1,12 @@
+.socials {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    justify-content: center;
+}
+
+.socials a img {
+    height: 1.25rem;
+    aspect-ratio: auto;
+}

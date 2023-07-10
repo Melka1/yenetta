@@ -1,0 +1,33 @@
+.label {
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.label .marketing-automation-wrapper {
+    border: 0px none;
+    height: 38px;
+    width: 100%;
+}
+
+.label .marketing-automation {
+    color: #3a3541de;
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: 0.18px;
+    line-height: 32px;
+    white-space: nowrap;
+}
+
+.label .text-wrapper {
+    font-weight: 600;
+}
+
+.label .span {
+    font-weight: 500;
+}
+
+.label .text-wrapper-2 {
+    font-family: "Roboto-Regular", Helvetica;
+}

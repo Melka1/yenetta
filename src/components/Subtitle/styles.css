@@ -1,0 +1,11 @@
+.form--title {
+    color: var(--light-text-secondary, rgba(58, 53, 65, 0.68));
+  
+    /* Light/Typography/Body 2 */
+    /* font-family: Inter; */
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.15px;
+  }

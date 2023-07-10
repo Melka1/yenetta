@@ -1,0 +1,35 @@
+.box {
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.box .logo-wrapper {
+    border: 0px none;
+    height: 61px;
+    width: 138px;
+}
+
+.box .logo {
+    align-items: center;
+    display: flex;
+    gap: 12px;
+    padding: 0px 0px 32px;
+}
+
+.box .img {
+    height: 27.34px;
+    min-width: 35px;
+    position: relative;
+}
+
+.box .text-wrapper {
+    color: #3a3541de;
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: 0.27px;
+    line-height: normal;
+    position: relative;
+    width: fit-content;
+}
