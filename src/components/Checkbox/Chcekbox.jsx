@@ -3,9 +3,9 @@ import './styles.css'
 
 function Chcekbox({label}) {
   return (
-    <label class="container">{label}
+    <label className="container">{label}
         <input name='policy' type="checkbox"/>
-        <span class="checkmark"></span>
+        <span className="checkmark"></span>
     </label>
   )
 }
